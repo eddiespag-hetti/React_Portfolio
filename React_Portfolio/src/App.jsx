@@ -2,13 +2,14 @@
 import Portfolio from './components/Portfolio'
 import './App.css'
 
+
+// App() returns Portfolio component
 function App() {
   return(
-<div className="Portfolio">
-  <Portfolio/>
-</div>
+    <Portfolio/>
   )
 }
+
 
  
 
