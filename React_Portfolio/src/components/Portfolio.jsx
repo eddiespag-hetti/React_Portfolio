@@ -1,16 +1,15 @@
-import React from 'react';
 
-// Create a Portfolio component that renders a div with a class of "portfolio"
-class Portfolio extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      projects: [
+
+// Create a Portfolio component
+function Portfolio() {
+
+        // Array of projects 
+      const projects = [
         {
           id: 1,
           title: "SecureScribe",
           description: "A secure online journalling application.",
-          image: "secure-scribe.png",
+          image: "./src/img/secure-scribe.png",
           githubLink: "https://github.com/Hyne-OS1/SecureScribe",
          
         },
@@ -18,7 +17,7 @@ class Portfolio extends React.Component {
           id: 2,
           title: "Weather App",
           description: "Description of project 2.",
-          image: "weather-app.png",
+          image: "./src/img/weather-app.png",
           githubLink: "https://github.com/eddiespag-hetti/Weather_Forecast",
           
         },
@@ -26,7 +25,7 @@ class Portfolio extends React.Component {
             id: 3,
             title: "Employee Tracker DB",
             description: "Description of project 3.",
-            image: "employee-db.png",
+            image: "./src/img/employee-db.png",
             githubLink: "https://github.com/eddiespag-hetti/EmployeeDB_CLI",
             
           },
@@ -34,7 +33,7 @@ class Portfolio extends React.Component {
             id: 4,
             title: "Tech Blog",
             description: "Description of project 4.",
-            image: "tech-blog.png",
+            image: "./src/img/tech-blog.png",
             githubLink: "https://github.com/eddiespag-hetti/Tech_Blog",
             
           },
@@ -42,17 +41,18 @@ class Portfolio extends React.Component {
 
         // Add more projects as needed
       ]
-    };
-  }
+    ;
 
-  render() {
+  
+
+
     return (
       <div>
         <h1>My Portfolio</h1>
         <div className="projects">
-          {this.state.projects.map(project => (
+          {projects.map(project => (
             <div key={project.id} className="project">
-              <img src={project.image} alt={project.title} />
+              <img className='project-img' src={project.image} alt={project.title} />
               <h2>{project.title}</h2>
               <p>{project.description}</p>
               <div>
@@ -65,7 +65,8 @@ class Portfolio extends React.Component {
       </div>
     );
   }
-}
+
+
 
 export default Portfolio;
 
