@@ -1,26 +1,21 @@
 
-import Portfolio from './components/Portfolio'
-import Header from './components/Header';
-import Footer from './components/Footer'
-import './App.css'
+import Navbar from "./components/Navbar/Navbar";
+
 
 
 // App() returns Portfolio component -think of this as the body tag
-function App() {
+const App = () => {
 
 
 
   return (
     <>
-   
-   <Header />
-   <Portfolio/>
-   <Footer/>
-   
-
+< Navbar />
     </>
   );
 }
+   
+
 
 
  
