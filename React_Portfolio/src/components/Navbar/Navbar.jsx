@@ -9,6 +9,8 @@ const Navbar = () => {
 <nav className="nav-wrapper">
   <div className='nav-content'>
     <img className='logo-react' src="./img/react-color.svg" />
+    <h1 className='title'>Edward Payne</h1>
+    <h4 className='sub-title'>Coding Bootcamp Student</h4>
     <ul>
       <li>
         <a className='menu-item'>Home</a>
@@ -19,12 +21,11 @@ const Navbar = () => {
       <li>
         <a className='menu-item'>Portfolio</a>
       </li>
-      <li>
-        <a className='menu-item'>Contact Me</a>
-      </li>
-      <button className='contact-btn' onClick={() => {}}>Hire Me</button>
-
+  
+      <button className='contact-btn' onClick={() => {}}>Contact Me</button>
     </ul>
+
+
   </div>
 </nav>
 </>
