@@ -53,7 +53,7 @@
 
 }
 
-.menu-item {
+#menu-item {
     text-decoration: none;
     font: 0.9rem;
     font-weight: 500;
@@ -63,7 +63,7 @@
 }
 
 
-.menu-item::before{
+#menu-item::before{
     content: " ";
     width: 2rem;
     height: 0.2rem;
@@ -76,7 +76,7 @@
     transition: all 0.3s ease;
 }
 
-.menu-item:hover::before {
+#menu-item:hover::before {
     width: 100%;
     transform: translateX(0);
     opacity: 1;
