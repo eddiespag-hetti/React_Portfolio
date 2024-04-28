@@ -1,0 +1,23 @@
+.about-container {
+background-color: #ffffffee;
+padding: 40px 60px 80px 60px;
+border: solid 2px #000000;
+border-radius: 10px;
+
+}
+
+.about-heading {
+    color: #1d1d1d;
+    padding-top: 30px;
+    font-size: 30px;
+    text-decoration: underline solid 1px;
+    text-align: center;
+}
+
+.about-para {
+    padding-top: 30px;
+    color: rgb(19, 18, 18);
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}

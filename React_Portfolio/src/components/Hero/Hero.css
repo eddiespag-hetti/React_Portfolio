@@ -20,7 +20,7 @@
   
   .hero-img {
     width: 600px; 
-    height: 600px; 
+    height: 700px; 
     opacity: 0.65; /* Adjust opacity as needed */
   }
   
@@ -32,8 +32,8 @@
   }
   
   .tech-icon {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     /* Additional styling for the icons */
   }
   
