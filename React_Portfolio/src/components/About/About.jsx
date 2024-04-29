@@ -4,7 +4,7 @@ const About = () => {
   return (
     <> 
     <div className='about-container'>
-    <div className='about-heading'>About Me</div>
+    <div className='about-heading'>Introduction & Background</div>
     <p className='about-para'>My name is Edward, an aspiring Web Developer passionate about creating engaging, user-centric digital experiences. My journey through the vast developer landscape began when I decided to change streams entirely.
      Bidding farewell to a successful fifteen years in the commercial construction industry and enrolling into Monash University Flex Full Stack Web Development Bootcamp. As I have previously discovered, you cannot build a house without a strong foundation.
       Similarly, you cannot begin designing and deploying web applications without a thorough knowledge of what is involved from the Front-end to Back-end. 

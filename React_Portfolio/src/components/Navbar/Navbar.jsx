@@ -3,6 +3,11 @@ import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const currentPage = useLocation().pathname;
+  // const history = useHistory();
+
+  // const handleClick = () => {
+  //   history.push("/Contact");
+  // };
 
   return (
     <>
@@ -40,8 +45,10 @@ const Navbar = () => {
               </Link>
             </li>
 
-            <button className="contact-btn" onClick={() => {}}>
-              Contact Me
+            <button className="contact-btn">
+              <Link
+              
+              to="/Contact">Contact Me</Link>
             </button>
           </ul>
         </div>

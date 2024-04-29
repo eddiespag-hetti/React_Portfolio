@@ -4,6 +4,10 @@
     position: relative;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 @media (max-width: 1300px) {
     .container {
         padding: 0 1.5rem;
