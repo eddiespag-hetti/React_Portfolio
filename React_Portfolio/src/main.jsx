@@ -8,6 +8,7 @@ import Error from '../src/pages/Error.jsx';
 import About from './components/About/About.jsx';
 import Portfolio from './pages/Portfolio.jsx';
 import ContactPage from './pages/ContactPage.jsx';
+import Resume from './pages/Resume.jsx'
 
 
 // Define the accessible routes, and which components respond to which URL
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   path: '/Contact',
   element: <ContactPage />,
 },
+{
+  path: '/Resume',
+  element: <Resume />
+}
     ],
   },
 ]);

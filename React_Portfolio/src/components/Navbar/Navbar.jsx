@@ -28,11 +28,11 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/Skills"
+                to="/Resume"
                 className={currentPage === "/" ? "nav-link active" : "nav-link"}
                 id="menu-item"
               >
-                Skills
+                Resume
               </Link>
             </li>
             <li>

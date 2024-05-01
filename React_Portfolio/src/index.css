@@ -16,3 +16,55 @@ body {
   height: 150px;
   width: 150px;
 }
+
+
+/* Contact page */
+
+.contact-page {
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* Style the container to center the form */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Style form elements */
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #79aed9e0;
+  color: rgba(255, 255, 255, 0.939);
+  padding: 14px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #a88d4357;
+}
