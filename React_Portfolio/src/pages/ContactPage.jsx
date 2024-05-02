@@ -6,24 +6,17 @@ const ContactPage = () => {
       <h1>Contact Page</h1>
       <div className="container">
         <form action="action_page.php">
-          <label htmlFor="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+          <label htmlFor="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name.." />
 
-          <label htmlFor="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+          <label htmlFor="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email.." />
 
-          <label htmlFor="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-
-          <label htmlFor="subject">Subject</label>
+          <label htmlFor="message">Message</label>
           <textarea
-            id="subject"
-            name="subject"
-            placeholder="Write something.."
+            id="message"
+            name="message"
+            placeholder="Write your message.."
             style={{ height: '200px' }} // Pass style as an object
           ></textarea>
 
