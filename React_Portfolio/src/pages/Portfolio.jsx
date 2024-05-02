@@ -9,21 +9,21 @@ const Portfolio = () => {
       title: "Secure Scribe",
       description: "A Secure Online Journalling Application",
       imageSrc: "./img/secure-scribe.png",
-     link: "https://github.com/Hyne-OS1/SecureScribe",
+     link: "https://secure-gorge-83546-fd710447ff28.herokuapp.com/",
     },
     {
       id: 2,
       title: "Byte Me - Tech Blog",
       description: "A Blog page for all things Tech",
       imageSrc: "./img/tech-blog.png",
-      link: "https://github.com/eddiespag-hetti/Tech_Blog"
+      link: "https://byteme-techblog-261fe561b9ad.herokuapp.com/"
     },
     {
       id: 3,
       title: "Weather Forecast",
       description: "5 Day weather forecast web application",
       imageSrc: "./img/weather-app.png",
-      link: "https://github.com/eddiespag-hetti/Weather_Forecast"
+      link: "https://eddiespag-hetti.github.io/Weather_Forecast/"
     },
     {
       id: 4,
