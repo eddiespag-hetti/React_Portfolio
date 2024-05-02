@@ -3,11 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const currentPage = useLocation().pathname;
-  // const history = useHistory();
 
-  // const handleClick = () => {
-  //   history.push("/Contact");
-  // };
 
   return (
     <>
@@ -27,13 +23,13 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link
-                to="/Resume"
-                className={currentPage === "/" ? "nav-link active" : "nav-link"}
+              <a href="https://github.com/eddiespag-hetti"
+             
+                
                 id="menu-item"
               >
                 Resume
-              </Link>
+              </a>
             </li>
             <li>
               <Link
@@ -58,3 +54,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
