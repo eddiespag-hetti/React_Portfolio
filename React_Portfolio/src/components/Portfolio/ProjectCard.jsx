@@ -1,9 +1,11 @@
 
-
+// Importing project card CSS and Link from react-router-dom
 import './ProjectCard.css';
 import { Link } from 'react-router-dom';
 
-const ProjectCard = ({ title, description, imageSrc, link }) => {
+
+// Each project will be represented by a card in my portfolio page
+const ProjectCard = ({ link, title, imageSrc, description }) => {
   return (
     <div className="project-card">
       <Link to={link} target="_blank" rel="noreferrer">
@@ -14,6 +16,7 @@ const ProjectCard = ({ title, description, imageSrc, link }) => {
     </div>
   );
 }
+ 
 
 export default ProjectCard;
 
