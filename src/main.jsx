@@ -1,10 +1,10 @@
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import App from './App.jsx';
 import './index.css';
 
-import Error from '../src/pages/Error.jsx';
+import Error from './pages/Error.jsx';
 import About from './components/About/About.jsx';
 import Portfolio from './pages/Portfolio.jsx';
 import ContactPage from './pages/ContactPage.jsx';
