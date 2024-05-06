@@ -33,7 +33,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/Portfolio"
+                to="/portfolio"
                 className={currentPage === "/" ? "nav-link active" : "nav-link"}
                 id="menu-item"
               >
@@ -44,7 +44,7 @@ const Navbar = () => {
             <button className="contact-btn">
               <Link
               
-              to="/Contact">Contact Me</Link>
+              to="/contact">Contact Me</Link>
             </button>
           </ul>
         </div>
